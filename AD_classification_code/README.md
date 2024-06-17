@@ -15,7 +15,7 @@ The `AD_classification_code` folder contains the Python code for computing confi
 
 ### Sample Code Overview
 
-The sample code in each notebook initializes necessary libraries, loads data, applies SMOTE, and runs the neural network. Key sections include:
+The sample code in each notebook initialises necessary libraries, loads data, applies SMOTE, and runs the neural network. Key sections include:
 
 - Importing libraries and setting up the environment.
 - Loading and preprocessing the data.
@@ -25,18 +25,18 @@ The sample code in each notebook initializes necessary libraries, loads data, ap
 
 ## Key Features
 
-- **Heterogeneous Data Utilization**: Incorporation of diverse data sources including cognitive and functional assessments, tau-PET and MRI neuroimaging, medical/family history, demographic data, and APoE genotype for a comprehensive analysis.
+- **Heterogeneous Data Utilisation**: Incorporation of diverse data sources including cognitive and functional assessments, tau-PET and MRI neuroimaging, medical/family history, demographic data, and APoE genotype for a comprehensive analysis.
 - **Confidence Estimation**: A novel approach using a softmax confidence metric based on the network’s output activity to evaluate classification confidence at the individual level.
 - **Custom Neural Network Layer**: Implementation of a custom ConfidenceSoftmax layer that computes confidence scores for each model prediction.
 - **Robust Model Evaluation**: Application of Leave-One-Out Cross-Validation (LOOCV) to ensure the reliability and robustness of the model's performance.
-- **Optimized Confidence Temperature**: Investigation of different confidence softmax temperature values to determine the optimal temperature for the most reliable confidence scores.
+- **Optimised Confidence Temperature**: Investigation of different confidence softmax temperature values to determine the optimal temperature for the most reliable confidence scores.
 
 ## Usage
 
-1. **Preprocessing**: Open the Jupyter notebook for the desired confidence temperature (e.g., `Demntia_Classifcation_&_Confidence_with_Temp_0.5.ipynb`) and run the scripts to prepare the data. This includes handling missing data and normalizing the dataset.
+1. **Preprocessing**: Open the Jupyter notebook for the desired confidence temperature (e.g., `Demntia_Classifcation_&_Confidence_with_Temp_0.5.ipynb`) and run the scripts to prepare the data. This includes handling missing data and normalising the dataset.
 2. **Training**: Execute the training cells in the same notebook to train the neural network.
 3. **Evaluation**: Continue running the notebook to assess model performance. The evaluation includes calculating accuracy, F1 score, precision, recall, and confidence scores for each class prediction.
-4. **Visualization**: The notebook includes cells to visualize the results and confidence scores.
+4. **Visualisation**: The notebook includes cells to visualise the results and confidence scores.
 
 For detailed instructions on how to run each step, please refer to the comments and markdown cells within each Jupyter notebook.
 
@@ -44,6 +44,6 @@ For detailed instructions on how to run each step, please refer to the comments 
 
 We welcome contributions to this project. Please fork the repository, create a new branch, and submit a pull request with your changes.
 
-## License
+## Licence
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT Licence - see the LICENCE file for details.
