@@ -16,7 +16,7 @@ The `AD_classification_code` folder contains the Python code for computing confi
 ### `Sample_data`
 
 The `Sample_data` folder contains the dataset used in this project:
-- `Data_ADNIMerge_procssedNeuroImaging.csv`: The primary dataset for Alzheimer's disease classification.
+- `Data_ADNIMerge_procssedNeuroImaging.csv`: The processed dataset for Alzheimer's disease classification.
 
 ### Running the Notebooks in Google Colab
 
