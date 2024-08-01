@@ -13,10 +13,9 @@ The `AD_classification_code` folder contains the Python code for computing confi
 - `Demntia Classifcation & Confidence with Temp 2.0.ipynb`: Code for confidence temperature 2.0
 - `Demntia_Classifcation_&_Confidence_with_Temp_2.5.ipynb`: Code for confidence temperature 2.5
 
-### `Sample_data`
+### `Sample_data Availability`
 
-The `Sample_data` folder contains the dataset used in this project:
-- `Data_ADNIMerge_procssedNeuroImaging.csv`: The processed dataset for Alzheimer's disease classification.
+The processed data used in this project is available from the authors upon reasonable request.
 
 ### Running the Notebooks in Google Colab
 
